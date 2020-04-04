@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: orange;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #90AFC5;
+  font-family: 'Merriweather', serif;
 }
