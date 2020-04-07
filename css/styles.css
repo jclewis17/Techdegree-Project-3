@@ -9,3 +9,23 @@ body {
   background-color: #90AFC5;
   font-family: 'Merriweather', serif;
 }
+
+.head {
+  background-color: #2a3132;
+  color: white;
+  padding: 10px 0;
+}
+
+.main-content-head {
+  padding-bottom: 40px;
+  border-bottom: black 5px solid;
+  margin: 0 15px;
+}
+
+.signup {
+  font-weight: 700;
+}
+
+.light-text {
+  font-weight: lighter;
+}
