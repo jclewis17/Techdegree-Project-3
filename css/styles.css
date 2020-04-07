@@ -27,5 +27,6 @@ body {
 }
 
 .light-text {
+  color: #3c3c3c;
   font-weight: lighter;
 }
