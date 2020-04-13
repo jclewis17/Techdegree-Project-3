@@ -1,6 +1,10 @@
+/*** UNIVERSAL SELECTOR ***/
+
 * {
   box-sizing: border-box;
 }
+
+/*** HEADER AND INTRO ***/
 
 body {
   margin: 0;
@@ -29,4 +33,10 @@ body {
 .light-text {
   color: #3c3c3c;
   font-weight: lighter;
+}
+
+.bottom {
+  border-top: black 2px solid;
+  margin: 5px 15px 0 15px;
+
 }
