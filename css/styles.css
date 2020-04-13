@@ -40,6 +40,8 @@ body {
   margin: 5px 15px 0 15px;
 }
 
+/*** FORM ***/
+
 form {
   width: auto;
   margin-left: 15px;
@@ -88,10 +90,37 @@ input[type=text]:focus {
   transition: background-color 1s;
 }
 
+::placeholder {
+  text-align: right;
+  font-style: italic;
+  color: #BCBCBC;
+}
 
 .contact-info {
   text-align: left;
   font-size: 30px;
   padding-top: 20px;
   margin: 0 -5px 20px 0;
+}
+
+select {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+  color: #545454;
+}
+
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: 48px;
+  margin-bottom: 12px;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #E8EEEF;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  border-radius: 8px;
 }
