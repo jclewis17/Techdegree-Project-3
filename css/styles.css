@@ -44,16 +44,13 @@ body {
 
 form {
   width: auto;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 0 15px;
   border-radius: 8px;
   text-align: left;
 }
 
 .form-main {
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 30px;
+  margin: 0 15px 30px 15px;
 }
 
 fieldset {
@@ -84,6 +81,20 @@ label {
 }
 
 input[type=text]:focus {
+  outline: 2px solid #336B87;
+  border-radius: 8px;
+  background-color: #D4D4D4;
+  transition: background-color 1s;
+}
+
+input[type=email]:focus {
+  outline: 2px solid #336B87;
+  border-radius: 8px;
+  background-color: #D4D4D4;
+  transition: background-color 1s;
+}
+
+input[type=tel]:focus {
   outline: 2px solid #336B87;
   border-radius: 8px;
   background-color: #D4D4D4;
