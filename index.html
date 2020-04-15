@@ -110,17 +110,34 @@
 
           <legend class="news">Newsletter</legend>
 
-          <label>Select the newsletters you would like to receive</label><br><br>
-          <input type="checkbox" id="html" value="check_html" name="user_letter">
-          <label>HTML News</label><br>
+          <label class="light-text">Select the newsletters you would like to receive</label><br><br>
+          <input type="checkbox" id="html" value="check_html" name="user_letters">
+            <label class="checks" for="html">HTML News</label><br><br>
+          <input type="checkbox" id="css" value="check_css" name="user_letters">
+            <label class="checks" for="css">CSS News</label><br><br>
+          <input type="checkbox" id="javascript" value="check_javascript" name="user_letters">
+            <label class="checks" for="javascript">Javascript News</label><br><br><br>
 
+          <label class="light-text">Newsletter Format</label><br><br>
+          <input type="radio" id="htmlrb" value="htmlrb" name="user_format">
+            <label class="checks" for="htmlrb">HTML</label><br><br>
+          <input type="radio" id="textrb" value="textrb" name="user_format">
+            <label class="checks" for="textrb">Plain Text</label><br><br><br>
 
+          <label class="light-text">Tell us about other topics you are interested in</label>
+          <textarea id="additional" name="user_additional"></textarea>
 
         </fieldset> <!-- end of .newsletter -->
+
+        <button type="submit">Sign Up</button>
 
       </form>
     </div> <!-- end of .form-main -->
     </div> <!-- end of .all-content -->
+
+    <footer>
+      <p class="foot">&copy; The Code Review 2020</p>
+    </footer>
 
   </body>
 </html>

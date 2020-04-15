@@ -174,3 +174,82 @@ select {
   font-size: 30px;
   padding-top: 20px;
 }
+
+.checks {
+  padding-left: 10px;
+}
+
+textarea {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: 100px;
+  margin-bottom: 12px;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #E8EEEF;
+  color: black;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  border-radius: 8px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #336B87;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #336B87;
+  border-width: 1px 1px 3px;
+  box-shadow: 2.5px 5px #2A3132;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #6493C4;
+}
+
+/*** FOOTER ***/
+
+footer {
+  font-size: 11px;
+  font-style: italic;
+  margin: 50px 0 20px 0;
+}
+
+
+/**********************
+    MEDIA QUERIES
+**********************/
+
+@media (min-width: 768px) {
+
+  .all-content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input,
+  label {
+    display: inline-block;
+  }
+
+  .info label {
+    margin-right: 20px;
+  }
+
+  #zip {
+    width: 25%;
+  }
+
+  button {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
