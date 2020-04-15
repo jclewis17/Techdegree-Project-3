@@ -228,28 +228,25 @@ footer {
 
 @media (min-width: 768px) {
 
-  .all-content {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .form-main {
+   margin-left: 0;
+   margin-right: 0;
+ }
+ input,
+ select,
+ label {
+   display: inline-block;
+ }
+ label {
+   width: 25%;
+ }
+ input,
+ select {
+   max-width: 70%;
+ }
 
-  input,
-  label {
-    display: inline-block;
-  }
-
-  .info label {
-    margin-right: 20px;
-  }
-
-  #zip {
-    width: 25%;
-  }
-
-  button {
-    width: 80%;
-    margin: 0 auto;
-  }
+ #zip {
+   width: 25%;
+ }
 
 }
