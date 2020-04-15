@@ -237,9 +237,11 @@ footer {
  label {
    display: inline-block;
  }
+
  label {
    width: 25%;
  }
+
  input,
  select {
    max-width: 70%;
@@ -250,6 +252,7 @@ footer {
  }
 
  button {
+   display: block;
    width: 80%;
    margin: 0 auto;
  }
