@@ -249,4 +249,9 @@ footer {
    width: 25%;
  }
 
+ button {
+   width: 80%;
+   margin: 0 auto;
+ }
+
 }
